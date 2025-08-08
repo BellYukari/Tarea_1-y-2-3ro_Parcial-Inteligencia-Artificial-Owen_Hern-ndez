@@ -6,9 +6,9 @@ from email.mime.base import MIMEBase
 from email import encoders
 
 # Datos del correo
-remitente = "bellyukari123@gmail.com"
-destinatario = "bellyukari123@gmail.com"
-password = "uwvf fxjm nwtb wjiu"  # Coloca aquí tu contraseña de aplicación
+remitente = "" # Coloca aquí el remitente del correo
+destinatario = "" # Coloca aquí el destinataio del correo
+password = ""  # Coloca aquí tu contraseña de aplicación
 
 # Crear mensaje multipart
 mensaje = MIMEMultipart()
